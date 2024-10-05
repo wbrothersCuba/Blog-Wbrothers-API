@@ -19,36 +19,34 @@ The app is configured to work with CORS requests already, so you can make reques
 
 
 ## Endpoints
-
 > User
 
-POST /api/login: Sign in.
-POST /api/register: Sign up.
-PUT /api_url/user/update: User settings.
-POST /api/user/upload: Upload a avatar image.
-GET /api/user/avatar/{filename}: Show the image of user avatar.
-GET /api/user/detail/{id}: Show the user detail.
+ - POST /api/login: Sign in.
+ - POST /api/register: Sign up.
+ - PUT /api_url/user/update: User settings.
+ - POST /api/user/upload: Upload a avatar image.
+ - GET /api/user/avatar/{filename}: Show the image of user avatar.
+ - GET /api/user/detail/{id}: Show the user detail.
 
+  
 > Categories
 
-GET /api/category/index: Return all categories.
-GET /api/category/show(id):  Return a categorywith the given id.
-POST /api/category/store : Add a new category.
-PUT /api/category/update/{id}: Change data of a post.
+ - GET /api/category/index: Return all categories.
+ - GET /api/category/show(id): Return a categorywith the given id.
+ - POST /api/category/store : Add a new category.
+ - PUT /api/category/update/{id}: Change data of a post.
 
 > Posts
 
-GET /api/post/index .
-GET /api/post/show(id) .
-POST /api/post/store : Add a new post.
-PUT /api/post/update/{id}: Change data of a post.
-DELETE /api/post/destroy/{id}: Delete data of a post.
-POST /api/post/upload: upload a post image.
-GET /api/post/getImage/{filename}:: upload a post image.
-GET /api/post/getPostbyCategory/{category_id}:: upload a post image.
-GET /api/post/getPosytByUser/{user_id}:: upload a post image.
-
-
+ - GET /api/post/index .
+ - GET /api/post/show(id).
+ - POST /api/post/store : Add a new post.
+ - PUT /api/post/update/{id}: Change data of a post.
+ - DELETE /api/post/destroy/{id}: Delete data of a post.
+ - POST /api/post/upload: upload a post image.
+ - GET /api/post/getImage/{filename}:: upload a post image.
+ - GET /api/post/getPostbyCategory/{category_id}:: upload a post image.
+ - GET /api/post/getPosytByUser/{user_id}:: upload a post image.
 ## TO DO
 
  -  Update laravel version to 11.
