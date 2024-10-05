@@ -58,15 +58,16 @@ The app is configured to work with CORS requests already, so you can make reques
 
 > Posts
 
-GET /api/post/index .
-GET /api/post/show(id) .
-POST /api/post/store : Add a new post.
-PUT /api/post/update/{id}: Change data of a post.
-DELETE /api/post/destroy/{id}: Delete data of a post.
-POST /api/post/upload: upload a post image.
-GET /api/post/getImage/{filename}:: upload a post image.
-GET /api/post/getPostbyCategory/{category_id}:: upload a post image.
-GET /api/post/getPosytByUser/{user_id}:: upload a post image.
+- GET /api/post/index .
+- GET /api/post/show(id).
+- POST /api/post/store : Add a new post.
+- PUT /api/post/update/{id}: Change data of a post.
+- DELETE /api/post/destroy/{id}: Delete data of a post.
+- POST /api/post/upload: upload a post image.
+- GET /api/post/getImage/{filename}:: upload a post image.
+- GET /api/post/getPostbyCategory/{category_id}:: upload a post image.
+- GET /api/post/getPosytByUser/{user_id}:: upload a post image.
+
 
 
 ## TO DO
