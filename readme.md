@@ -3,7 +3,7 @@
 
   
 
-This RESTful API is generated with Laravel, for a blog. In the file database.sql (MYSQL) are the sql commands to generate the BD, but may be needed to adapt the file.env and modify the line to your own configurations:
+This RESTful API is generated with Laravel, for a blog. In the file database.sql (MYSQL) are the SQL commands to generate the BD, but may be needed to adapt the file.env and modify the line to your configurations:
 
   
 
@@ -25,7 +25,7 @@ DB_PASSWORD=null
 
   
 
-and there is a file named api_rest_laravel.sql with the commands required for restore it.
+and there is a file named api_rest_laravel.sql with the commands required to restore it.
 
   
 
@@ -33,7 +33,7 @@ Create MYSQL db
 
   
 
-The app is configured to work with CORS requests already, so you can make request using postman or testing directly in the frontend app. The API use JWT for authentication so you must generate a token and put it in the headers of the request.
+The app is configured to work with CORS requests already, so you can make request using postman or testing directly in the frontend app. The API uses JWT for authentication so you must generate a token and put it in the headers of the request.
 
   
   
