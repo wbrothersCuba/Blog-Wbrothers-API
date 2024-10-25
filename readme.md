@@ -33,7 +33,7 @@ Create MYSQL db
 
   
 
-The app is configured to work with CORS requests already, so you can make request using postman or testing directly in the frontend app. The API uses JWT for authentication so you must generate a token and put it in the headers of the request.
+The app is already configured to work with CORS requests, so you can make requests using Postman or testing directly in the frontend app. The API uses JWT for authentication, so you must generate a token and put it in the headers of the request.
 
   
   
@@ -44,24 +44,24 @@ The app is configured to work with CORS requests already, so you can make reques
  - POST /api/login: Sign in.
  - POST /api/register: Sign up.
  - PUT /api_url/user/update: User settings.
- - POST /api/user/upload: Upload a avatar image.
- - GET /api/user/avatar/{filename}: Show the image of user avatar.
+ - POST /api/user/upload: Upload an avatar image.
+ - GET /api/user/avatar/{filename}: Show the user avatar image.
  - GET /api/user/detail/{id}: Show the user detail.
 
   
 > Categories
 
  - GET /api/category/index: Return all categories.
- - GET /api/category/show(id): Return a categorywith the given id.
+ - GET /api/category/show(id): Return a category with the given id.
  - POST /api/category/store : Add a new category.
- - PUT /api/category/update/{id}: Change data of a post.
+ - PUT /api/category/update/{id}: Change post data.
 
 > Posts
 
 - GET /api/post/index .
 - GET /api/post/show(id).
 - POST /api/post/store : Add a new post.
-- PUT /api/post/update/{id}: Change data of a post.
+- PUT /api/post/update/{id}: Change post data.
 - DELETE /api/post/destroy/{id}: Delete data of a post.
 - POST /api/post/upload: upload a post image.
 - GET /api/post/getImage/{filename}:: upload a post image.
